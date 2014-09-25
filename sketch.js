@@ -25,4 +25,14 @@ function draw() {
 	trailY1 = (trailY0 + trailY1 * 9) / 10;
 	ellipse(trailX1, trailY1, 80, 80);
 
+	// trail ellipse #2
+	trailX2 = (trailX1 + trailX2 * 9) / 10;
+	trailY2 = (trailY1 + trailY2 * 9) / 10;
+	ellipse(trailX2, trailY2, 80, 80);
+
+	// trail ellipse #3
+	trailX3 = (trailX2 + trailX3 * 9) / 10;
+	trailY3 = (trailY2 + trailY3 * 9) / 10;
+	ellipse(trailX3, trailY3, 80, 80);
+
 }
