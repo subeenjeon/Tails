@@ -1,7 +1,13 @@
 var trailX0 = 0;
 var trailX1 = 0;
+var trailX2 = 0;
+var trailX3 = 0;
 var trailY0 = 0;
 var trailY1 = 0;
+var trailY2 = 0;
+var trailY3 = 0;
+
+
 
 function setup() {
 	createCanvas(800, 600);
