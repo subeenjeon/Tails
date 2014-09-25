@@ -18,11 +18,11 @@ function draw() {
 	// trail ellipse #0
 	trailX0 = (mouseX + trailX0 * 9) / 10;
 	trailY0 = (mouseY + trailY0 * 9) / 10;
-	ellipse(trailX, trailY, 80, 80);
+	ellipse(trailX0, trailY0, 80, 80);
 
 	// trail ellipse #1
 	trailX1 = (trailX0 + trailX1 * 9) / 10;
 	trailY1 = (trailY0 + trailY1 * 9) / 10;
-	ellipse(trailX, trailY, 80, 80);
+	ellipse(trailX1, trailY1, 80, 80);
 
 }
